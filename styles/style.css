@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+/** Start Header CSS **/
+
+header {
+    width: 1290px;
+    margin: auto;
+    max-width: 95%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 65px;
+}
+
+
+header .btn-try {
+    display: flex;
+    flex-direction: column;
+}
+
+header .btn-try button {
+    font-family: inherit;
+    padding: 10px 30px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #525FFB;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    text-align: left;
+    color: #525ffb;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/** End Header Css **/
