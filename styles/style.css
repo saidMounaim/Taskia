@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2family=Poppins:wght@300;400;500;600;700&display=swap');
 /** Start Header CSS **/
 
 header {
@@ -10,6 +9,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 header .logo {
@@ -43,3 +45,98 @@ header .btn-try button {
 }
 
 /** End Header Css **/
+
+
+/** Start Hero Css **/
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section .container-hero {
+    width: 1290px;
+    margin: auto;
+    max-width: 95%;
+}
+
+.hero-section .content-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section .content-hero .left-side {
+    width: 700px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section .content-hero .left-side h1 {
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -0.01em;
+    line-height: 97px;
+    text-align: left;
+    color: #1e1c24;
+}
+
+.hero-section .content-hero .left-side p {
+    width: 90%;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    color: #b1aaaa;
+    margin-top: 15px;
+}
+
+.hero-section .content-hero .left-side .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.hero-section .content-hero .left-side .form-group input {
+    width: 320px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #EBEBEB;
+    border-radius: 40px;
+    padding: 25px 18px;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: rgba(30, 28, 36, 0.85);
+    opacity: 0.36;
+}
+
+.hero-section .content-hero .left-side .form-group button {
+    font-family: inherit;
+    padding: 25px 40px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    background: #525FFB;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.hero-section .content-hero .right-side {
+    width: 580px;
+    height: 520px;
+    position: relative;
+}
+
+/**  End Hero Css **/
