@@ -3,6 +3,7 @@ import Head from 'next/head'
 // Sections
 import Hero from '../components/Hero';
 import Services from '../components/Services';
+import Management from '../components/Management';
 
 
 export default function Home() {
@@ -14,8 +15,9 @@ export default function Home() {
       </Head>
 
       <Hero />
-
       <Services />
+      <Management />
+
 
     </>
   )

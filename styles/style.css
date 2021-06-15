@@ -248,3 +248,84 @@ header .btn-try button {
 }
 
 /** End Services Css **/
+
+/** Start Management Css **/
+
+.management {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.management .container-management {
+    width: 1290px;
+    margin: auto;
+    max-width: 95%;
+}
+
+.management .content-management {
+    display: flex;
+    flex-direction: column;
+}
+
+.management .content-management .item {
+    display: flex;
+    align-items: center;
+}
+
+.management .content-management .item:not(:last-child) {
+    margin-bottom: 200px;
+}
+
+.management .content-management .item:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.management .content-management .item .left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.management .content-management .item .left-side img {
+    object-fit: contain;
+}
+
+.management .content-management .item .right-side {
+    width: 500px;
+    max-width: 95%;
+    margin-left: 40px;
+}
+
+.management .content-management .item .right-side h3 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: left;
+    color: #1e1c24;
+}
+
+.management .content-management .item .right-side p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    color: #b1aaaa;
+    margin-top: 16px;
+}
+
+.management .content-management .item .right-side button {
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: #525FFB;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/** End Management Css **/
