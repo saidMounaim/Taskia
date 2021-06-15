@@ -1,0 +1,169 @@
+@media screen and (max-width: 1200px) {
+    .hero-section .content-hero .left-side h1 {
+        font-size: 58px;
+        line-height: 73px;
+    }
+
+    .hero-section .content-hero .left-side p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .hero-section .content-hero .left-side .form-group input {
+        padding: 18px 18px;
+    }
+
+    .hero-section .content-hero .left-side .form-group button {
+        padding: 18px 40px;
+    }
+
+    .hero-section .content-hero .right-side {
+        width: 490px;
+    }
+
+    .services .header-services h2,
+    .trustus .header-trustus h2,
+    footer .header-footer h3 {
+
+        font-size: 40px;
+    }
+
+    .services .grid-services .card .info h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .services .grid-services .card .info p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .management .content-management .item .right-side h3 {
+        font-size: 35px;
+        line-height: 47px;
+    }
+
+    .management .content-management .item .right-side p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .trustus .content-trustus h3 {
+        font-size: 80px;
+    }
+
+    footer .header-footer h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    footer .form-group input {
+        padding: 15px 14px;
+    }
+
+    footer .form-group button {
+        padding: 15px 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .services .grid-services {
+        grid-template-columns: repeat(3, 280px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section .content-hero .left-side h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .hero-section .content-hero .left-side p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .hero-section .content-hero {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        height: initial;
+        padding-top: 200px;
+        padding-bottom: 40px;
+    }
+
+    .hero-section .content-hero .right-side {
+        max-width: 95%;
+    }
+
+    .services .grid-services {
+        grid-template-columns: repeat(1, 280px);
+    }
+
+    .services .grid-services .card:nth-of-type(2) {
+        top: 0;
+    }
+
+    .management .content-management .item:not(:last-child) {
+        margin-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .management .content-management .item .right-side {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .management .content-management .item:nth-child(2n) {
+        flex-direction: column;
+    }
+
+    .trustus .content-trustus img {
+        width: 170px !important;
+    }
+
+    .services .header-services h2,
+    .trustus .header-trustus h2,
+    footer .header-footer h3 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-section .content-hero .left-side h1 {
+        font-size: 40px;
+        line-height: 54px;
+    }
+
+    .hero-section .content-hero .left-side .form-group,
+    footer .form-group {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-section .content-hero .left-side .form-group button,
+    footer .form-group button {
+        padding: 12px 60px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .management .content-management .item .right-side h3 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .trustus .content-trustus h3 {
+        font-size: 27px;
+    }
+
+    footer .header-footer h5 {
+        width: 100%;
+    }
+
+    header .btn-try button {
+        padding: 5px 25px;
+        font-size: 15px;
+    }
+}

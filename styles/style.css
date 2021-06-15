@@ -399,6 +399,7 @@ footer .header-footer {
 }
 
 footer .header-footer h3 {
+    text-align: center;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
