@@ -140,3 +140,111 @@ header .btn-try button {
 }
 
 /**  End Hero Css **/
+
+
+/** Start Serivces Css **/
+
+.services {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.services .header-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .header-services h2 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #1e1c24;
+}
+
+.services .container-services {
+    width: 1220px;
+    max-width: 95%;
+    margin: auto;
+}
+
+.services .grid-services {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center;
+    grid-gap: 30px;
+    margin-top: 80px;
+}
+
+.services .grid-services .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 11px;
+}
+
+.services .grid-services .card .info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+}
+
+.services .grid-services .card .info h3 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.services .grid-services .card .info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.services .grid-services .card:nth-of-type(1) .info h3 {
+    color: #fff;
+}
+
+.services .grid-services .card:nth-of-type(1) .info p {
+    color: #fff;
+}
+
+.services .grid-services .card:nth-of-type(2) .info h3 {
+    color: #1E1C24;
+}
+
+.services .grid-services .card:nth-of-type(2) .info p {
+    color: #1E1C24;
+}
+
+.services .grid-services .card:nth-of-type(3) .info h3 {
+    color: #1E1C24;
+}
+
+.services .grid-services .card:nth-of-type(3) .info p {
+    color: #1E1C24;
+}
+
+.services .grid-services .card:nth-of-type(1) {
+    background: #525FFB;
+}
+
+.services .grid-services .card:nth-of-type(2) {
+    background: #E9F0FF;
+    position: relative;
+    top: 50px;
+}
+
+.services .grid-services .card:nth-of-type(3) {
+    background: #FFE7AA;
+}
+
+/** End Services Css **/

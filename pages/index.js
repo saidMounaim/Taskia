@@ -2,6 +2,8 @@ import Head from 'next/head'
 
 // Sections
 import Hero from '../components/Hero';
+import Services from '../components/Services';
+
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       </Head>
 
       <Hero />
+
+      <Services />
 
     </>
   )
