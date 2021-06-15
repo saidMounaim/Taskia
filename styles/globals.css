@@ -6,13 +6,12 @@
 
 html,
 body {
-  height: 9000px;
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background-image: url(../public/bg.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 a {

@@ -380,3 +380,80 @@ header .btn-try button {
 }
 
 /** End Trust Us Css **/
+
+
+/** Start Footer Css **/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    border-top: 1px solid #E6E6E6;
+}
+
+footer .header-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .header-footer h3 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: #1e1c24;
+    margin-bottom: 20px;
+}
+
+footer .header-footer h5 {
+    width: 500px;
+    max-width: 95%;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 35px;
+    text-align: center;
+    color: #1e1c24;
+    margin: auto;
+}
+
+footer .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+footer .form-group input {
+    width: 320px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #EBEBEB;
+    border-radius: 40px;
+    padding: 20px 14px;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: rgba(30, 28, 36, 0.85);
+    opacity: 0.36;
+}
+
+footer .form-group button {
+    font-family: inherit;
+    padding: 20px 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    background: #525FFB;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+/** End Footer Css **/
