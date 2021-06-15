@@ -329,3 +329,54 @@ header .btn-try button {
 }
 
 /** End Management Css **/
+
+/** Start Trust Us Css **/
+
+.trustus {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.trustus .header-trustus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trustus .header-trustus h2 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #1e1c24;
+}
+
+.trustus .container-trustus {
+    width: 1290px;
+    margin: auto;
+    max-width: 95%;
+}
+
+.trustus .content-trustus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.trustus .content-trustus h3 {
+
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 60px;
+    text-align: center;
+    color: #525ffb;
+
+}
+
+.trustus .content-trustus img {
+    object-fit: contain;
+}
+
+/** End Trust Us Css **/
