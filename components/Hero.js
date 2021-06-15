@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import data from "../data/heroSection.json";
+
 
 const Hero = () => {
     return (
@@ -8,10 +10,8 @@ const Hero = () => {
                 <div className="content-hero">
 
                     <div className="left-side">
-                        <h1>Task management and lists Tool</h1>
-                        <p>We believe that designing products and services in close
-                            partnership with our clients is the only way to have a real
-                            impact on their business.</p>
+                        <h1>{data.title}</h1>
+                        <p>{data.description}</p>
                         <form>
                             <div className="form-group">
                                 <input type="email" placeholder="Name@company.com" />
@@ -31,5 +31,6 @@ const Hero = () => {
         </section>
     )
 }
+
 
 export default Hero;

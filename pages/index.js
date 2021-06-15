@@ -7,7 +7,8 @@ import Management from '../components/Management';
 import TrustUs from '../components/TrustUs';
 
 
-export default function Home() {
+export default function Home({ hero }) {
+
   return (
     <>
       <Head>

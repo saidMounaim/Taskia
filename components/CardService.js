@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const CardService = ({ icon, title, description }) => {
+const CardService = ({ id, icon, title, description }) => {
     return (
-        <div className="card">
+        <div className="card" id={id}>
             <Image src={icon} alt="Service-icon" width={200} height={200} />
             <div className="info">
                 <h3>{title}</h3>

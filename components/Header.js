@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import data from '../data/headerSection.json';
 
 const Header = () => {
     return (
@@ -7,7 +8,7 @@ const Header = () => {
             <div className="logo">
                 <Link href="/">
                     <a>
-                        <Image src="/logo.png" width={165} height={65} />
+                        <Image src={data.logo} width={165} height={65} />
                     </a>
                 </Link>
             </div>

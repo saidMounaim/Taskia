@@ -1,9 +1,11 @@
+import data from '../data/footerSection.json';
+
 const Footer = () => {
     return (
         <footer>
             <div className="header-footer">
-                <h3>Get better work done</h3>
-                <h5>See why millions of people across 195 countries use Dash.</h5>
+                <h3>{data.title}</h3>
+                <h5>{data.description}</h5>
             </div>
 
             <form>
