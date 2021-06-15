@@ -1,0 +1,16 @@
+{
+    "blocks": [
+        {
+            "id": 1,
+            "title": "Why do you need task management software?",
+            "description": "Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.",
+            "image": "/management/mockup.png"
+        },
+        {
+            "id": 2,
+            "title": "Seamless Team Workflow & Efficient Task Management",
+            "description": "Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.",
+            "image": "/management/app.png"
+        }
+    ]
+}

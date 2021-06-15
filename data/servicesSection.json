@@ -1,0 +1,23 @@
+{
+    "title": "Featured Service that We Provide",
+    "blocks": [
+        {
+            "id": 1,
+            "title": "Keep tasks in one place",
+            "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
+            "icon": "/services/service1.svg"
+        },
+        {
+            "id": 2,
+            "title": "Keep tasks in one place",
+            "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
+            "icon": "/services/service2.svg"
+        },
+        {
+            "id": 3,
+            "title": "Keep tasks in one place",
+            "description": "Save time, avoid losing work and information, delegate, and track tasks to stay on schedule",
+            "icon": "/services/service3.svg"
+        }
+    ]
+}
